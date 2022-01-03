@@ -4,6 +4,9 @@ This Machine Learning project is created for AWS-Disaster-Response-Hackathon whi
 
 **Phase-1 :** Based on all historical monthy rain fall data using Nonlinear Autoregressive Exogenous (NARX) neural network model to predict rainfall for next Months , Weeks , Days or hours based on provided data for training.
 For experiment purpose i used monthly average rain fall data focusing on specific region.
+![Model_Prediction_Rainfall](https://user-images.githubusercontent.com/11903851/147935559-f9cbff21-fb0d-4824-92b3-0e2c35b2aa73.png)
+
+
 
 **Phase-2 :** Once rain fall model predicts the rain fall that data feeds into another Machine Learning model which is built using Random Forest Classification Model. This model predicts the chances of flood due to this overall rain fall.
 Predictions are done considering +-10% error , so model output in following way with overall % confidence level of the alert.
