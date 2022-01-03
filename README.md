@@ -9,9 +9,14 @@ For experiment purpose i used monthly average rain fall data focusing on specifi
 Predictions are done considering +-10% error , so model output in following way with overall % confidence level of the alert.
 
  ***************Flood Prediction Confusion Matrix Based on Rain***************
-[[10  0]
- [ 1  9]]
+ 
+10  0
+
+1   9 
+
  
  ***************Send Alert for flood***************
+ 
 Red Zone : There are 100% chance the region will be hit by flood during month of 7/2017
+
 Amber Zone : There are 66.67% chance the region will be hit by flood during month of 8/2017 
